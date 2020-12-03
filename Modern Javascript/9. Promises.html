@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+</html>
+<head>
+
+</head>
+<body>
+    <script>
+        function notifyAllAsynchronous(fnSms, fnEmail) {
+  setTimeout(function () {
+    console.log("Starting notification Process");
+
+    fnSms();
+    fnEmail();
+  }, 2000);
+}
+notifyAllAsynchronous(
+  () => console.log("SMS"),
+  () => console.log("Email")
+);
+
+console.log("End");
+
+//Promises
+var keepHisWord;
+keepHisWord = true;
+promise1 = new Promise(
+  //Call Back Function as an Argument
+  function (resolve, reject) {
+    setTimeout(() => {
+      if (keepHisWord) {
+        resolve("The man likes to keep his word");
+      } else {
+        reject("The man doesn't want to keep his word");
+      }
+    }, 2000);
+  }
+);
+console.log(promise1);
+console.log("End of Script");
+    </script>
+
+</body>
