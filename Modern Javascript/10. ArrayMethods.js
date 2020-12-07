@@ -102,6 +102,7 @@ let arrayForMap = [1, 2, 3, 4];
 let newArrayForMap = arrayForMap.map((element) => element * 2);
 
 console.log("Map Method: " + newArrayForMap);
+console.log("YO");
 
 //11. pop
 //Array.pop()
