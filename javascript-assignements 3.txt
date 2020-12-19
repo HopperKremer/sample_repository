@@ -1,0 +1,51 @@
+1. Find given number is Prime or not
+
+2. Find Prime between 1 to 100
+
+3. Find fibinoci series
+
+4. Print below pattrens
+
+	*
+	**
+	***
+	****
+	*****
+	****
+	***
+	**
+	*
+
+5. accept a number and check for palindrome
+
+
+6.Find the sum of all elements of a given array?
+var arr = [1, 2, 5, 10, 20];
+
+7)Find Duplicate Characters in a String 
+
+8)Find first non-repeated character in a String 
+
+9)Reverse a String(trying using without reverse method in String Builder) 
+
+10)Compute floor of a division and modules.Apply Overloading for four different primitive datatypes 
+
+11)Check if a string contains substring(String and substring are input) 
+
+12)Extract Min and Max of two numbers(int,long,float and double) 
+
+13)Write a Programm to sort an Array using loop(Not using Arrays or Collections classes) 
+
+14)Write a Programm to reverse a Array(using Loops) 
+
+15)Create a interface Arithmetic which contains a method signature int divisor_sum(int n). You need to write a class called MyCalculator which implements the interface. 
+
+  divisorSum function just takes an integer as input and return the sum of all its divisors. For example divisors of 6 are 1, 2, 3 and 6, so divisor_sum should return 12 
+
+  Input : 6   
+
+  Output: I implemented: Arithmetic  
+
+            12 
+
+ 

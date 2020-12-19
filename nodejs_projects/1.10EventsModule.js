@@ -25,12 +25,12 @@ eventEmmiter.on("MyFirstEventRunning", myFirstEventHandler());
 eventEmmiter.emit("someEvent");
 //listner 1
 
-var listner1 = function listner1(){
-    console.log("listner1 executed")
-}
-var listner2 = function listner2(){
-    console.log("listner2 executed")
-}
+var listner1 = function listner1() {
+  console.log("listner1 executed");
+};
+var listner2 = function listner2() {
+  console.log("listner2 executed");
+};
 //bind
-EventEmitter.on('connection', listner1)
+EventEmitter.on("connection", listner1);
 //console.log("
